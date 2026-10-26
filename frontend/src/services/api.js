@@ -3,8 +3,7 @@
  * Includes authentication token handling and role-based request authorization.
  */
 
-const API_BASE_URL = '/api';
-
+const API_BASE_URL = 'https://quizportal-backend-dbn6.onrender.com/api';
 // Token Storage Helpers
 export function getAuthToken() {
   return localStorage.getItem('quiz_auth_token');
